@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css" />  <!--link external css to the html for styling-->
+    <title>Data table</title>
+    
+    <script src="index.js"></script>  <!-- to link the .js file for functianilies-->
+</head>
+
+<body style="text-align:center;" id="body">
+    <div class="search-container">
+        <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search...">
+    </div>
+    <table id="datatable" class="display nowrap" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>                       <!--these are the Table headings-->
+                <th>Description</th>
+                <th>Rate</th>
+                <th>Balance</th>
+                <th>Deposit</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+</body>
+
+</html>
